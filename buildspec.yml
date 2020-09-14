@@ -84,16 +84,16 @@ phases:
                   #      cpu: 500m
                   #    requests:
                   #      cpu: 200m
-                    readinessProbe:
-                      tcpSocket:
-                        port: 8080
-                      initialDelaySeconds: 15
-                      periodSeconds: 20
-                    livenessProbe:
-                      tcpSocket:
-                        port: 8080
-                      initialDelaySeconds: 20
-                      periodSeconds: 30
+                  #  readinessProbe:
+                  #    tcpSocket:
+                  #      port: 8080
+                  #    initialDelaySeconds: 15
+                  #    periodSeconds: 20
+                  #  livenessProbe:
+                  #    tcpSocket:
+                  #      port: 8080
+                  #    initialDelaySeconds: 20
+                  #    periodSeconds: 30
           EOF
           
      # - |
