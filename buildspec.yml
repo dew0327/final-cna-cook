@@ -95,6 +95,7 @@ phases:
                       initialDelaySeconds: 20
                       periodSeconds: 30
           EOF
+          
      # - |
           #cat <<EOF | kubectl apply -f -
           #apiVersion: autoscaling/v1
