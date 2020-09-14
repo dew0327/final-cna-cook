@@ -70,4 +70,4 @@ spring:
 
 api:
   url:
-    cook: http://delivery:8080
+    delivery: http://delivery:8080
