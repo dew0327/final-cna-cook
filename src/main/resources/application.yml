@@ -71,3 +71,9 @@ spring:
 api:
   url:
     delivery: http://delivery:8080
+
+logging:
+  level:
+    org.hibernate.type: trace
+    org.springframework.cloud: debug
+  file: /mnt/aws/logs/cook-application.log
