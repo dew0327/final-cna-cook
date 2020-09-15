@@ -15,7 +15,7 @@ public class Cook {
     private Integer customerId;
     private String status;
     private long orderId;
-    private static int qty = 3;
+    private static int qty = 20;
 
     @PostPersist
     public void onPostPersist(){
